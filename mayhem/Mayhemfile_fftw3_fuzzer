@@ -1,0 +1,7 @@
+project: fftw3
+target: fftw3_fuzzer
+testsuite:
+  - file:///mayhem/mayhem/testsuite
+cmds:
+  - cmd: /mayhem/fftw3_fuzzer
+    libfuzzer: true
